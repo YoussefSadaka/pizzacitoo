@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PizzaCitoo</title>
+	<link rel="icon" href="imgs/logopc-no-background.png" type="image/x-icon">
+
+	<link rel="stylesheet" href="css/prog.css">
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+	<!-- header section -->
+	<header>
+		<!-- <a href="#" class="logo">Food<span>Fun</span></a> -->
+		<a href="#" class="logo"><img src="imgs/logo-no-background.png" alt="logo" style="width: 240px; height: auto;"></a>
+		<ul class="navbar">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#menu">Menu</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+
+		<div class="h-icons">
+			<a href="#menu"><i class='bx bx-cart' ></i></a>
+			<div class="bx bx-menu" id="menu-icon"></div>
+		</div>
+	</header>
+
+	<!-- home section -->
+		<section class="home" id="home">
+			<div class="home-text">
+				<h1><span>Welcome</span> to PizzaCitoo</h1>
+				<p><span>Join the Pizza Revolution: We’ve Got the Best Pizzas in Town!</span> </p>
+
+			</div>
+			<div class="home-img">
+				<img src="imgs/home.png" alt="home">
+			</div>
+		</section>
+	
+	<!-- about section -->
+		<section class="about" id="about">
+			<div class="about-img">
+				<img src="imgs/a.png" alt="">
+			</div>
+
+			<div class="about-text">
+				<h2>The Delicious Food<br> For a Good Mood</h2>
+				<p>Founded on a passion for delivering not just pizzas, but memorable moments, PizzaCitoo is more than a pizza place it’s a culinary journey. Join us in savoring the artistry of flavors, where every bite tells a story of quality, creativity, and devotion. Come, indulge in the pizza experience you deserve. Welcome to the home of extraordinary pizzas, where every slice is an invitation to culinary delight.</p>
+			</div>
+
+		</section>
+
+		<section class="chef" id="chef">
+			<div class="chef-img">
+				<img src="imgs/chef-removebg-preview.png" alt="">
+			</div>
+
+			<div class="chef-text">	
+				<h2>Our Chef<br>Youssef Gaber Sadaka</h2>
+				<p>Our chef at the pizzacitoo has extensive experience in preparing the perfect pizza dough, making it light and crispy.
+					The chef is distinguished by his ability to choose the finest types of fresh ingredients, to ensure the provision of pizza with a unique and distinctive flavour.
+					Our chef knows how to prepare innovative sauces that add a distinctive touch to every pizza he serves in the restaurant.
+					Thanks to his skills in achieving the perfect balance between flavors, Our chef presents a pizza that is distinguished by its delicious taste and the consistency of its ingredients.
+					The distinguished chef masters the art of oven cooking, ensuring that each pizza is baked to perfection, crispy on the outside and soft on the inside.</p>
+			</div>
+
+		</section>
+	<!-- menu section -->
+
+		<section class="menu" id="menu">
+			<div class="main-text" style="text-align: center;">
+				<h2>Our Pizza</h2>
+				<p>We have selected for You<br> the most exquisite tastes around the world</p>
+			</div>
+
+			<div class="menu-content">
+				<div class="row">
+					<img src="imgs/Veggie pizza.jpg" alt="main-product1">
+					<div class="menu-text">
+						<div class="menu-left">
+							<h4>Veggie pizza</h4>
+						</div>
+						<div class="menu-right">
+							<h5>130 EGY</h5>
+						</div>
+					</div>
+					<div class="star">
+						<a class="order-btn" onclick="openModal()">order</a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+					</div>
+				</div>
+
+				<div class="row">
+					<img src="imgs/Hawaiian pizza.webp" alt="main-product2">
+					<div class="menu-text">
+						<div class="menu-left">
+							<h4>Hawaiian pizza</h4>
+						</div>
+						<div class="menu-right">
+							<h5>160 EGY</h5>
+						</div>
+					</div>
+					<div class="star">
+						<a class="order-btn" onclick="openModal()">order</a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+					</div>
+				</div>
+
+				<div class="row">
+					<img src="imgs/Pepperoni pizza.jpg" alt="main-product3">
+					<div class="menu-text">
+						<div class="menu-left">
+							<h4>Pepperoni pizza</h4>
+						</div>
+						<div class="menu-right">
+							<h5>120 EGY</h5>
+						</div>
+					</div>
+					<div class="star">
+						<a class="order-btn" onclick="openModal()">order</a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+					</div>
+				</div>
+
+				<div class="row">
+					<img src="imgs/mix Cheese pizza.jpg" alt="main-product4">
+					<div class="menu-text">
+						<div class="menu-left">
+							<h4>Mix Cheese pizza</h4>
+						</div>
+						<div class="menu-right">
+							<h5>150 EGY</h5>
+						</div>
+					</div>
+					<div class="star">
+						<a class="order-btn" onclick="openModal()">order</a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+					</div>
+				</div>
+
+				<div class="row">
+					<img src="imgs/BBQ Chicken pizza.webp" alt="main-product4">
+					<div class="menu-text">
+						<div class="menu-left">
+							<h4>BBQ Chicken pizza</h4>
+						</div>
+						<div class="menu-right">
+							<h5>170 EGY</h5>
+						</div>
+					</div>
+					<div class="star">
+						<a class="order-btn" onclick="openModal()">order</a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+						<a href="#"><i class='bx bxs-star' ></i></a>
+					</div>
+				</div>
+
+			<div class="row">
+				<img src="imgs/BBQ Chicken pizza.webp" alt="main-product4">
+				<div class="menu-text">
+					<div class="menu-left">
+						<h4>Meat Lovers pizza</h4>
+					</div>
+					<div class="menu-right">
+						<h5>140 EGY</h5>
+					</div>
+				</div>
+
+				<div class="star">
+					<a class="order-btn" onclick="openModal()">order</a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+				</div>
+			</div>
+			<div class="row">
+				<img src="imgs/pizzacitoo.jpg" alt="main-product4">
+				<div class="menu-text">
+					<div class="menu-left">
+						<h4>PizzaCitoo</h4>
+					</div>
+					<div class="menu-right">
+						<h5>150 EGY</h5>
+					</div>
+				</div>
+
+				<div class="star">
+					<a class="order-btn" onclick="openModal()">order</a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+				</div>
+			</div>
+			<div class="row">
+				<img src="imgs/greek pizaa.jpg" alt="main-product4">
+				<div class="menu-text">
+					<div class="menu-left">
+						<h4>greek pizza</h4>
+					</div>
+					<div class="menu-right">
+						<h5>170 EGY</h5>
+					</div>
+				</div>
+
+				<div class="star">
+					<a class="order-btn" onclick="openModal()">order</a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+				</div>
+			</div>
+			<div class="row">
+				<img src="imgs/pacon pizza.jpg" alt="main-product4">
+				<div class="menu-text">
+					<div class="menu-left">
+						<h4>pacon pizza</h4>
+					</div>
+					<div class="menu-right">
+						<h5>140 EGY</h5>
+					</div>
+				</div>
+
+				<div class="star">
+					<a class="order-btn" onclick="openModal()">order</a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+					<a href="#"><i class='bx bxs-star' ></i></a>
+				</div>
+			</div>
+		<div class="row">
+			<img src="imgs/Buffalo Chicken pizza.jpg" alt="main-product4">
+			<div class="menu-text">
+				<div class="menu-left">
+					<h4>Buffalo Chicken pizza</h4>
+				</div>
+				<div class="menu-right">
+					<h5>150 EGY</h5>
+				</div>
+			</div>
+			<div class="star">
+				<a class="order-btn" onclick="openModal()">order</a>
+				<a href="#"><i class='bx bxs-star' ></i></a>
+				<a href="#"><i class='bx bxs-star' ></i></a>
+				<a href="#"><i class='bx bxs-star' ></i></a>
+				<a href="#"><i class='bx bxs-star' ></i></a>
+				<a href="#"><i class='bx bxs-star' ></i></a>
+			</div>
+		</div>
+			</div>
+		</section>
+
+	<!-- contact section -->
+
+		<section class="contact" id="contact">
+			<div class="main-contact">
+				<div class="contact-content">
+					<h4>Services</h4>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#menu">Menu</a></li>
+				</div>
+
+				<div class="contact-content">
+					<h4>Contact</h4>
+					<li><a href="#home">Contact Us</a></li>
+					<li><a href="#about">Press Center</a></li>
+					<li><a href="#menu">Careers</a></li>
+				</div>
+
+				<div class="contact-content">
+					<h4>Follow Us</h4>
+					<li><a href="https://www.tiktok.com/@youssef_g_sadaka?_t=8oHNthNj78W&_r=1">TikTok</a></li>
+					<li><a href="https://www.facebook.com/profile.php?id=100086669983641&mibextid=LQQJ4d">Facebook</a></li>
+					<li><a href="https://www.instagram.com/youssef_gaber2?igsh=MTI1czVxNWUyb2Y4Mw%3D%3D&utm_source=qr">Instagramm</a></li>
+				</div>
+			</div>
+		</section>
+	<!-- scroll top -->
+	<a href="#home" class="scroll-top">
+		<i class='bx bx-up-arrow-alt' ></i>
+	</a>
+
+	<!-- custom scrollreveal link -->
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+	
+	<!-- custom js link -->
+	<script type="text/javascript" src="js/proj.js"></script>
+
+
+    <div id="orderModal" class="modal">
+        <div class="modal-content">
+            <h2>want to order</h2>
+            <div class="item-list" id="itemList"></div>
+            <div class="total" id="totalPrice">items : 0</div>
+            <button onclick="addItem()">add item</button>
+            <button onclick="closeModal()">close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+	
+</body>
+</html>
